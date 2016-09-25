@@ -7,7 +7,7 @@
     "start": "node index.js",
     "migrations": "db-migrate up",
     "test:integration": "node_modules/mocha/bin/mocha --recursive test/integration",
-    "test:unit": "node_modules/mocha/bin/mocha --recursive test/unit"
+    "test:end-to-end": "node_modules/mocha/bin/mocha --recursive test/end-to-end-test"
   },
   "author": "",
   "license": "ISC",
@@ -24,6 +24,7 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "jscs": "^3.0.7",
-    "mocha": "^3.0.2"
+    "mocha": "^3.0.2",
+    "supertest": "^2.0.0"
   }
 }
