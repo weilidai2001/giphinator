@@ -15,7 +15,9 @@
     "body-parser": "^1.15.2",
     "db-migrate": "^0.9.25",
     "express": "^4.13.4",
+    "lodash": "^4.16.1",
     "pg": "^5.1.0",
+    "request": "^2.75.0",
     "sequelize": "^3.23.3"
   },
   "devDependencies": {
